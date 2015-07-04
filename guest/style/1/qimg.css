@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	width:auto;
+}
+#qimg{
+	width:80%;
+	margin:10px auto;
+}
+#qimg h3{
+	text-align:center;
+	font-size:16px;
+	margin-bottom:10px;
+}
+#qimg dl {
+	width:90%;
+	margin:0 auto;
+}
+#qimg dl dd {
+	width:auto;
+	float:left;
+	margin-left:5px;
+}
+#qimg dl dd img {
+	cursor:pointer;
+}
+#qimg dl dd img:hover{
+	background:#eee;
+}

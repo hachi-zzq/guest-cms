@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+#photo_detail{
+	width:atuo;
+	height:auto;
+	border:2px solid #ccc;
+	margin-bottom:10px;
+	font-size:12px;
+}
+
+#photo_detail h2{
+	text-align:center;
+}
+#photo_detail dl dt img{
+	border:none;
+	
+}
+#photo_detail dl dt span{
+	vertical-align:top;
+	padding:20px;
+	font-size:20px;
+	color:#ccc;
+}
+#photo_detail dl.detail {
+	text-align:center;
+	margin:20px;
+}
+#photo_detail dl dt a {
+	vertical-align:top;
+	font-size:20px;
+	color:#f60;
+	padding:20px;
+}
+#photo_detail dl.detail dd {
+	padding:10px;
+	font-size:14px;
+}
+#photo_detail dl.detail dd.name {
+	font-weight:bold;
+	color:#333;
+}
+#photo_detail p{
+	text-align:center;
+	font-size:16px;
+}
+#photo_detail p a:hover{
+	text-decoration:underline;
+	margin-bottom:10px;
+}

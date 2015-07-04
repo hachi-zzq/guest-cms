@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+#reg,#login{
+	width:100%;
+	min-height:200px;
+	border:1px solid #ccc;
+	margin-bottom:10px;
+}
+#reg h2,#login h2{
+	text-align:center;
+}
+#reg dl,#login dl{
+	margin:15px auto 15px 350px;
+}
+#reg dl dd,#login dl dd{
+	padding-top:10px;
+}
+#reg dl dd input.text,#login dl dd input.text{
+	width:200px;
+	height:18px;
+	border:1px solid #ccc;
+}
+#reg dl dd select.text{
+	width:202px;
+	height:18px;
+}
+#reg dl dd select.face{
+	width:202px;
+}
+#reg dl dd input.submit,#login dl dd input.submit{
+	width:70px;
+	margin-left:60px;
+}
+#reg dl dd img,#reg dl dd input.submit{
+	cursor:pointer;
+}
+#reg dl dd img,#login dl dd img{
+	margin-left:60px;
+}
+
+
+
+
+

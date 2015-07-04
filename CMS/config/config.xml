@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<tag>
+		<name>webname</name>
+		<value>论坛</value>
+	</tag>
+
+	<tag>
+		<name>pagesize</name>
+		<value>10</value>
+	</tag>
+</root>

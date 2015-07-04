@@ -1,0 +1,99 @@
+@CHARSET "UTF-8";
+#member{
+	width:atuo;
+	height:500px;
+	border:2px solid #ccc;
+	margin-bottom:10px;
+}
+
+#member #member_sidebar{
+	width:300px;
+	height:480px;
+	border:2px solid #ccc;
+	margin:10px;
+	float:left;
+}
+
+
+#member #member_sidebar h2{
+	font-size:14px;
+	background:#eee;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+}
+
+#member #member_sidebar dl{
+	margin:15px;
+}
+
+#member #member_sidebar dl dt{
+	background:#aaa;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	color:white;
+}
+
+#member #member_sidebar dl dt a{
+	display:block;
+	width:auto;
+	height:40px;
+	color:black;
+	background:#aaa;
+}
+
+#member #member_sidebar dl dd{
+	background:#ccc;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	color:white;
+}
+
+#member #member_sidebar dl dd a{
+	display:block;
+	width:auto;
+	height:40px;
+	color:black;
+}
+#member #member_sidebar dl dd a:hover{
+	color:white;
+	background:#bbb;
+	
+}
+#member #member_main{
+	width:600px;
+	height:480px;
+	border:2px solid #ccc;
+	margin:10px;
+	float:right;
+}
+
+#member #member_main h2{
+	font-size:14px;
+	background:#eee;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+}
+
+#member #member_main dl{
+	margin:15px;
+}
+
+#member #member_main dl dd{
+	border-bottom:1px dashed #ccc;
+	margin:13px 8px;
+}
+#member #member_main form dl dd input.text{
+	width:180px;
+}
+#member #member_main form dl dd input.submit{
+	width:90px;
+	height:20px;
+	margin:0 0 0 10px;
+	cursor:pointer;
+	border:1px dashed #333;
+	background:#fff;
+}

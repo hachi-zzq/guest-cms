@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+#photo{
+	width:atuo;
+	min-height:500px;
+	border:2px solid #ccc;
+	margin-bottom:10px;
+	font-size:12px;
+}
+
+#photo h2{
+	text-align:center;
+}
+#photo dl{
+	background:url(../../images/photo.JPG) no-repeat;
+	width:94px;
+	height:120px;
+	margin:20px;
+	float:left;
+}
+#photo dl dt{
+	width:90px;
+	height:90px;
+	padding:10px 0  0 15px;
+}
+#photo dl dt img{
+	border:none;
+}
+#photo dl dd{
+	text-align:center;
+
+}
+#photo dl dd a{
+	color:#333;
+}
+#photo dl dd a:hover{
+	color:#fc2;
+	text-decoration:underline;
+}
+#photo p{
+	font-size:14px;
+	margin:20px;
+	text-align:center;
+	clear:both;
+}
+#photo p a{
+	color:blue;
+}
+#photo p a:hover{
+	color:#fc2;
+	text-decoration:underline;
+}
+#page_text{
+	padding-top:15px;
+	clear:both;
+	height:30px;
+	position:relative;
+}
+
+#page_text ul{
+	list-style-type:none;
+	text-align:center;
+}
+
+#page_text ul li{
+	display:inline;
+}

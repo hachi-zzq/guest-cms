@@ -1,0 +1,306 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background:#ffffff;
+	font-size:12px;
+}
+ul ,ol{
+	list-style-type:none;
+}
+input{
+	vertical-align:middle;
+}
+#top{
+	background-image:url("../images/admin_top_bg.gif");
+}
+#top h1 {
+	width:150px;
+	height:80px;
+	font-size:12px;
+	background:url(../images/logosmall.png) no-repeat;
+	text-indent:-9999px;
+	float:left;
+}
+#top ul {
+	float:left;
+	padding:47px 0 0 10px;
+}
+#top ul li {
+	padding:0 0 0 5px;
+	float:left;
+}
+#top ul li a {
+	width:58px;
+	height:33px;
+	line-height:33px;
+	text-align:center;
+	display:block;
+	background:url(../images/li_bg.png) no-repeat left bottom;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#fff;
+}
+#top ul li a.selected {
+	background-position:right bottom;
+	color:#3b6ea5;
+}
+#top p {
+	float:right;
+	padding:33px 20px 0 0;
+	color:#fff;
+}
+#top p a {
+	text-decoration:none;
+	color:#fff;
+}
+#top p a:hover {
+	text-decoration:underline;
+}
+#sidebar {
+	background:#f7fbfc url(../images/sidebar_right.png) repeat-y right;
+}
+#sidebar dl {
+	padding:20px;
+	text-indent:2px;
+}
+#sidebar dl dt {
+	font-size:14px;
+	color:#3b6ea5;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+	padding:5px 0 ;
+	margin:5px 0;
+}
+#sidebar dl dd {
+	height:22px;
+	line-height:22px;
+}
+#sidebar dl dd a {
+	color:#333;
+	text-decoration:none;
+}
+#sidebar dl dd a:hover {
+	text-decoration:underline;
+}
+#main {
+	background:#fff;
+}
+#main div.map {
+	padding:15px;
+	color:#333;
+}
+#main table {
+	width:95%;
+	margin:0 auto;
+	text-align:center;
+}
+#main table table {
+	width:100%;
+	text-align:left;
+}
+#main table.cke_dialog {
+	width:auto;
+}
+#main table tr.ckeditor {
+	background:none;
+}
+#main table tr.ckeditor tr {
+	background:none;
+}
+#main table.cke_dialog tr {
+	background:none;
+}
+#main table.content td {
+	text-align:left;
+	padding-left:5px;
+}
+#main table.content td span.red{
+	color:red;
+}
+#main table.content td input.text {
+	width:440px;
+}
+#main table.content td input.small {
+	width:100px;
+}
+#main table.content td select {
+	width:150px;
+	height:22px;
+}
+#main table.content td select optgroup{
+	font-style:normal;
+}
+#main table.content td select option{
+	margin:0 10px;
+}
+#main table.content td textarea {
+	margin:0;
+	width:440px;
+	height:80px;
+	overflow:auto;
+}
+#main table.content td span.middle {
+	vertical-align:30px;
+}
+#main table tr {
+	background:#fff;
+}
+#main table tr:hover {
+	background:#ffffcc;
+}
+#main table th, #main table td {
+	height:30px;
+	line-height:30px;
+	color:#333;
+}
+#main table th {
+	background:#eef3f7;
+	border-bottom:1px solid #d5dfe8;
+	font-weight:normal;
+}
+#main table td input.uploads{
+	margin-left:15px;
+}
+#main table td {
+	border-bottom:1px solid #eee;
+}
+#main table td a{
+	text-decoration:none;
+}
+#main table td a:hover{
+	text-decoration:underline;
+}
+#main p.add_manage {
+	text-align:center;
+	padding:20px;
+}
+#main form input.text {
+	width:220px;
+	height:19px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+#main form select {
+	width:100px;
+	height:19px;
+	background:#fff;
+}
+#main form input.submit {
+	cursor:pointer;
+	margin:0 0 0 47px;
+}
+#main form dl.update{
+	margin-left:40px;
+}
+#main form dl.update dd{
+	margin:10px auto;
+}
+#main form dl.update dd select{
+	margin:10px auto;
+	padding:0;
+	width:220px;
+}
+#main form dl.update dd input.radio{
+	margin-left:10px;
+}
+#main form dl.update dd input.submit{
+	border:1px solid #ccc;
+	background:#fff;
+	width:70px;
+	margin-left:60px;
+	cursor:pointer;
+}
+#main ol {
+	padding:0 0 0 26px;
+	height:35px;
+}
+#main ol li {
+	float:left;
+	padding:0 10px 0 0;
+}
+#main ol li a {
+	padding:6px;
+	display:block;
+}
+#main ol li a:hover {
+	background:#eee;
+}
+#main ol li a.selected {
+	background:#3b6ea5;
+	color:#fff;
+}
+#adminLogin {
+	width:350px;
+	margin:100px auto;
+	color:#666;
+	font-size:14px;
+}
+#adminLogin fieldset {
+	padding:20px;
+}
+#adminLogin legend {
+	font-size:16px;
+	font-weight:bold;
+}
+#adminLogin label {
+	display:block;
+	margin:15px;
+}
+#adminLogin label.t {
+	color:#999;
+}
+#adminLogin label input.text {
+	width:220px;
+	height:27px;
+	border:1px solid #666;
+	background:#eee;
+	line-height:27px;
+}
+#adminLogin input.submit {
+	margin: 0 0 0 60px;
+	cursor:pointer;
+}
+#adminLogin label  {
+	margin:0 0 0 56px;
+	cursor:pointer;
+}
+.sort{
+	width:30px;
+	text-align:center;
+}
+.link{
+	margin-left:55px;
+}
+#page{
+	text-align:center;
+}
+#page a{
+	border:1px solid #999;
+	padding:2px 3px;
+	text-decoration:none;
+}
+#page a:hover{
+	background:#ccc;
+}
+#page span.me{
+	color:#fff;
+	border:1px solid #999;
+	padding:2px 3px;
+	text-decoration:none;
+	background:#000;
+}
+#page form select,form select{
+	width:120px;
+	background:#fff;
+	border:1px solid #ccc;
+	margin:20px 5px;
+}
+#page select optgroup{
+	font-style:normal;
+}
+#page select option{
+	margin:0 10px;
+}

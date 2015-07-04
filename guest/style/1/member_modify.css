@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+#member{
+	width:atuo;
+	height:500px;
+	border:2px solid #ccc;
+	margin-bottom:10px;
+}
+
+#member #member_sidebar{
+	width:300px;
+	height:480px;
+	border:2px solid #ccc;
+	margin:10px;
+	float:left;
+}
+
+
+#member #member_sidebar h2{
+	text-align:center;
+	height:20px;
+	line-height:20px;
+}
+
+#member #member_sidebar dl{
+	background:red;
+	margin:15px;
+	background:#aaa;
+}
+#member #member_sidebar dl dt{
+	background:#aaa;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	color:white;
+}
+
+#member #member_sidebar dl dt a{
+	display:block;
+	width:auto;
+	height:40px;
+	color:black;
+	background:#aaa;
+}
+
+#member #member_sidebar dl dd{
+	background:#ccc;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	color:white;
+}
+
+#member #member_sidebar dl dd a{
+	display:block;
+	width:auto;
+	height:40px;
+	color:black;
+}
+#member #member_sidebar dl dd a:hover{
+	color:white;
+	background:#bbb;
+	
+}
+#member #member_modify{
+	width:600px;
+	height:480px;
+	border:2px solid #ccc;
+	margin:10px;
+	float:right;
+}
+
+#member #member_modify h2{
+	text-align:center;
+	height:20px;
+	line-height:20px;
+}
+
+#member #member_modify dl{
+	margin:15px;
+}
+
+#member #member_modify dl dd{
+	border-bottom:1px dashed #ccc;
+	margin:10px;
+}
+
+#member #member_modify dl dd input.text{
+	background:#fff;
+	border:1px solid #aaa;
+	width:220px;
+	height:19px;
+}
+
+#member #member_modify dl dd input.yzm{
+	width:60px;
+	border:1px dashed #ccc;
+}
+#member #member_modify dl dd img{
+	cursor:pointer;
+	position:relative;
+	top:5px;
+	left:5px;
+}
+#member #member_modify dl dd input.submit{
+	width:60px;
+	height:22px;
+	border:1px dashed #333;
+	background:#fff;
+	cursor:pointer;
+	margin:2px 0 2px 0;
+}
+

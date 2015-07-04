@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+#photo_show{
+	width:atuo;
+	min-height:500px;
+	border:2px solid #ccc;
+	margin-bottom:10px;
+	font-size:12px;
+}
+
+#photo_show h2{
+	text-align:center;
+}
+#photo_show p{
+	text-align:center;
+	margin:20px;
+	clear:both;
+}
+#photo_show p a{
+	font-size:14px;;
+}
+#photo_show p a:hover{
+	text-decoration:underline;
+}
+#photo_show dl{
+	width:250px;
+	height:250px;
+	float:left;
+	margin:10px 30px;
+	text-align:center;
+}
+#page_text{
+	padding-top:15px;
+	clear:both;
+	height:30px;
+	position:relative;
+}
+
+#page_text ul{
+	list-style-type:none;
+	text-align:center;
+}
+
+#page_text ul li{
+	display:inline;
+}

@@ -1,0 +1,69 @@
+@CHARSET "UTF-8";
+*{
+	padding:0px;
+	margin:0px
+}
+
+#head{
+	width:auto;
+	height:40px;
+	border:1px solid #aaa;
+	margin:10px;
+	background:#eee;
+}
+
+#head h3{
+	text-align:center;
+	line-height:40px;
+}
+
+#message form dl{
+	margin:10px;
+}
+
+#message form dl input.text{
+	background:#fff;
+	border:1px dashed #aaa;
+	width:200px;
+	height:23px;
+	margin-bottom:10px;
+}
+
+#message form textarea.textarea{
+	background:#fff;
+	border:1px dashed #aaa;
+	width:100%;
+	height:90px;
+	margin-bottom:10px;
+	overflow-y:scroll;
+}
+
+#message form dl dd input.code{
+	background:#fff;
+	border:1px dashed #aaa;
+	width:70px;
+	height:23px;
+}
+
+#message form dl dd img{
+	cursor:pointer;
+	position:relative;
+	top:6px;
+	left:5px;
+}
+
+#message form dl dd input.submit{
+	cursor:pointer;
+	margin:0 0 0 20px;
+}
+
+#message form dl dd select{
+	width:80px;
+	background:url(../../images/flower.gif) no-repeat;
+	padding-left:15px;
+}
+
+#message form dl dd select option{
+	background:url(../../images/flower.gif) no-repeat;
+	padding-left:15px;
+}

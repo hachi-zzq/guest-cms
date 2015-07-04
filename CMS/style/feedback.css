@@ -1,0 +1,142 @@
+@CHARSET "UTF-8";
+#feedback {
+	width:690px;
+	min-height:300px;
+	float:left;
+	margin:0 0 10px 0;
+	border:1px solid #ccc;
+}
+
+#feedback h3{
+	text-align:center;
+	color:#333;
+	padding:20px 0 0 0;
+	font-size:22px;
+}
+#feedback p{
+	padding:10px;
+	margin:10px;
+	background:#ffffee;
+	border:1px solid #ccc;
+	line-height:150%;
+}
+#feedback h2 a {
+	color:#360;
+	text-decoration:none;
+}
+#feedback h2 a:hover {
+	color:#f60;
+}
+#feedback dl{
+	margin:10px;
+	clear:both;
+	border-bottom:1px dashed #ccc;
+	min-height:130px;
+}
+#feedback dl dt{
+	float:left;
+}
+#feedback dl dt img{
+	display:block;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+#feedback dl dd{
+	float:left;
+	width:580px;
+	margin-left:10px;
+}
+#feedback dl dd em{
+	margin-top:10px;
+	float:right;
+	font-style:normal;
+	margin-bottom:6px;
+}
+#feedback dl dd span{
+	display:block;
+	padding-top:10px;
+	color:blue;
+}
+#feedback dl dd.info{
+	line-height:150%;
+		width:580px;
+}
+#feedback dl dd.bottom{
+	text-align:right;
+	width:580px;
+	margin-bottom:5px;
+	float:right;
+}
+#sidebar {
+	width:260px;
+	min-height:300px;
+	float:right;
+	margin:0 0 10px 0;
+	border:1px solid #ccc;
+}
+
+#sidebar ul {
+	padding:5px 2px 0 2px;
+}
+#sidebar ul li {
+	line-height:24px;
+	background:url(../images/pointer.png) no-repeat left center;
+	padding:0 0 0 10px;
+}
+#sidebar ul li em {
+	float:right;
+	font-style:normal;
+	font-family:Tahoma;
+}
+#sidebar ul li a {
+	color:#666;
+	text-decoration:none;
+}
+#sidebar ul li a:hover {
+	text-decoration:underline;
+}
+ div.d5 {
+ 	width:674px;
+	margin:10px 0;
+	padding:8px;
+	border:1px solid #ccc;
+	clear:both;
+}
+div.d5 em{
+	font-style:normal;
+	float:left;
+}
+div.d5 span{
+	float:right;
+}
+ div.d5 p {
+	margin:10px 0;
+}
+div.d5 p textarea {
+	width:650px;
+	height:150px;
+	background:#eee;
+	border:1px dashed #999;
+	resize:none;
+}
+div.d5 p.red {
+	color:red;
+}
+div.d5 p input.text {
+	width:80px;
+	height:20px;
+	border:1px dashed #999;
+	background:#eee;
+}
+div.d5 p input.submit {
+	width:80px;
+	height:25px;
+	cursor:pointer;
+}
+ div.d5 p img.code {
+	width:78px;
+	height:30px;
+	position:relative;
+	top:10px;
+	cursor:pointer;
+}

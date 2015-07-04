@@ -1,0 +1,104 @@
+@CHARSET "UTF-8";
+#blog{
+	width:atuo;
+	height:auto;
+	border:2px solid #ccc;
+	margin-bottom:10px;
+	font-size:12px;
+}
+
+#blog h2{
+	text-align:center;
+}
+
+#blog dl{
+	width:180px;
+	margin-top:10px;
+	margin-left:8px;
+	float:left;
+}
+
+#blog dl dt{
+	text-align:center;
+}
+
+#blog dl dd{
+	float:left;
+	width:60px;
+	text-align:center;
+	margin-left:15px;
+	padding-top:3px;
+}
+
+#blog dl dd.title{
+	float:none;
+	margin:0 auto;
+	color:red;
+}
+#blog dl dd.connect{
+	background:url(../../images/connect.gif) no-repeat ;
+	padding-left:5px;
+	
+}
+
+#blog dl dd.friend{
+	background:url(../../images/friend.gif) no-repeat ;
+	padding-left:9px;
+}
+
+#blog dl dd.guest{
+	background:url(../../images/guest.gif) no-repeat ;
+	padding-left:5px;
+}
+
+#blog dl dd.flower{
+	background:url(../../images/flower.gif) no-repeat ;
+	padding-left:5px;
+	
+}
+#page{
+	padding-top:15px;
+	clear:both;
+	height:30px;
+	position:relative;
+}
+#page ul{
+	list-style-type:none;
+	height:20px;
+	position:absolute;
+	right:30px;
+}
+
+#page ul li{
+	float:left;
+	width:20px;
+	height:20px;
+	border:1px solid #ccc;
+	text-align:center;
+	margin-left:5px;
+}
+#page ul li a{
+	display:block;
+	width:20px;
+	height:20px;
+}
+#blog ul li a:hover{
+	background:#666;
+	color:white;
+}
+
+#page_text{
+	padding-top:15px;
+	clear:both;
+	height:30px;
+	position:relative;
+}
+
+#page_text ul{
+	list-style-type:none;
+	text-align:center;
+}
+
+#page_text ul li{
+	display:inline;
+}

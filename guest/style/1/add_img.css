@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+#add_dir{
+	width:atuo;
+	min-height:380px;
+	border:2px solid #ccc;
+	margin-bottom:10px;
+	font-size:12px;
+}
+
+#add_dir h2{
+	text-align:center;
+}
+#add_dir dl {
+	width:280px;
+	margin:20px auto;
+}
+#add_dir dl dd {
+	padding:5px 0;
+}
+#add_dir dl dd input.text {
+	border:1px dashed #333;
+	background:#fff;
+	width:180px;
+	height:19px;
+}
+#add_dir dl dd textarea {
+	border:1px dashed #333;
+	background:#fff;
+	width:180px;
+	height:70px;
+	resize:none;
+}
+
+#add_dir dl dd input.submit {
+	border:1px dashed #333;
+	background:#fff;
+	width:60px;
+	height:19px;
+	cursor:pointer;
+	padding:0 0 2px 0;
+	margin:0 0 0 100px;
+}
